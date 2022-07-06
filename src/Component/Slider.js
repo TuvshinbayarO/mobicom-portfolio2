@@ -42,7 +42,7 @@ const Sliders = () => {
           </div>
           <div className="flex justify-center items-center">
             <div className="flex justify-center items-center">
-              <img className="w-32 rounded-full" src={A} />
+              <img alt='Profile' className="w-32 rounded-full" src={A} />
             </div>
             <div className='flex justify-center items-center'>
                 <h3 className="text-2xl text-center font-bold">Мэдээллийн Технологи Эрхэлсэн Дэд Захирал</h3>

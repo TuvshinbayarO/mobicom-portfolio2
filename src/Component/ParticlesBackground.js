@@ -15,7 +15,7 @@ export const ParticlesBackground = () => {
     await loadFull(main);
   };
 
-  const particlesLoaded = (container) => {
+  const particlesLoaded = () => {
     
   };
 

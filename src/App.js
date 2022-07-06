@@ -1,5 +1,5 @@
-import React, {useState, useEffect} from "react";
-
+import React, {useState, useEffect, CSSProperties } from "react";
+import BeatLoader from "react-spinners/BeatLoader";
 import A from './Assets/A.jpeg';
 import {FaFacebookF, FaInstagram, FaTwitter, FaGlobe, FaCheckCircle} from 'react-icons/fa'
 import "slick-carousel/slick/slick.css"; 
@@ -24,7 +24,7 @@ function App() {
     <div className="w-full h-full overflow-x-hidden bg-mobicom-gray">
        
       {
-        loading ? (<div className='absolute left-[0%] sm:left-[10%] top-[30%] sm:top-[10%]'><img className='w-full h-full animate-pulse' alt='Loader' src={load} /> </div>) : ( 
+        loading ? (<div className='h-screen flex justify-center items-center'> <BeatLoader color={'#cd1932'} loading={loading} size={20} /></div>) : ( 
       <div>
       <ParticlesBackground />
       <div style={{backgroundImage: `url(${Logo})`, backgroundPosition: 'center' ,backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
@@ -35,7 +35,7 @@ function App() {
               <h1 className='sm:text-5xl italic font-bold text-white'>Б. Баярмаа</h1>
               <p className='italic sm:text-2xl font-bold text-white'>Мэдээллийн Технологи Эрхэлсэн Дэд Захирал</p>
               <div className='pt-32'>
-              <a href="#" className="outline outline-offset-2 outline-1 outline-red-600 hover:bg-red-600 hover:text-white text-white rounded-full font-semibold p-2 sm:p-4 transition-all duration-300">Миний тухай</a>
+              <a href="/" className="outline outline-offset-2 outline-1 outline-red-600 hover:bg-red-600 hover:text-white text-white rounded-full font-semibold p-2 sm:p-4 transition-all duration-300">Миний тухай</a>
               </div>
             </div>
           </div>
