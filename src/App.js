@@ -32,7 +32,7 @@ function App() {
         <div className='flex justify-center items-center h-screen px-2'>
           <div className='w-full flex justify-center items-center'>
             <div className='h-full'>
-              <h1 className='sm:text-5xl italic font-bold text-white'>Б. Баярмаа</h1>
+              <h1 className='sm:text-5xl italic font-bold text-white'>Hi I'm Bayarmaa</h1>
               <p className='italic sm:text-2xl font-bold text-white'>Мэдээллийн Технологи Эрхэлсэн Дэд Захирал</p>
               <div className='pt-32'>
               <a href="#" className="outline outline-offset-2 outline-1 outline-red-600 hover:bg-red-600 hover:text-white text-white rounded-full font-semibold p-2 sm:p-4 transition-all duration-300">Миний тухай</a>
