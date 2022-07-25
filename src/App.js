@@ -26,7 +26,7 @@ function App() {
       {
         loading ? (<div className='h-screen flex justify-center items-center'> <BeatLoader color={'#cd1932'} loading={loading} size={20} /></div>) : ( 
       <div>
-      <ParticlesBackground />
+      {/* <ParticlesBackground /> */}
       <div style={{backgroundImage: `url(${Logo})`, backgroundPosition: 'center' ,backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
       <div className='container mx-auto'>
         <div className='flex justify-center items-center h-screen px-2'>
